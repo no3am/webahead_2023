@@ -1,3 +1,7 @@
 Naim looks like a smart guy
 The name is Saher
+<<<<<<< HEAD
+Second option
+=======
 This option?
+>>>>>>> second_conflict
