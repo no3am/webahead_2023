@@ -8,7 +8,7 @@ RUN pip install --upgrade pip
 RUN pip install -U web.py
 RUN pip install -U pathlib
 
- Bundle app source
+# Bundle app source
 COPY server/server.py /src/server.py
 COPY server/user_data.xml /src/user_data.xml
 
