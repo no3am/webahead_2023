@@ -13,5 +13,5 @@ COPY server/server.py /src/server.py
 COPY server/user_data.xml /src/user_data.xml
 
 
-#EXPOSE  8080
-#CMD ["python", "/src/server.py"]
+EXPOSE  8080
+CMD ["python", "/src/server.py"]
